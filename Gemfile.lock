@@ -76,6 +76,7 @@ GEM
       kaminari (>= 1.0)
       sassc-rails (~> 2.1)
       selectize-rails (~> 0.6)
+    bcrypt (3.1.19)
     bindex (0.8.1)
     bootsnap (1.16.0)
       msgpack (~> 1.2)
@@ -247,6 +248,7 @@ PLATFORMS
 
 DEPENDENCIES
   administrate
+  bcrypt
   bootsnap
   capybara
   cssbundling-rails

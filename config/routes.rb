@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root "stories#index"
+  get 'stories/index'
   namespace :admin do
       resources :stories
 
